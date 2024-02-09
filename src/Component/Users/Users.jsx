@@ -72,8 +72,8 @@ const Users = () => {
     return (
         <div className="container mx-auto px-4 lg:px-0">
             <h1 className="text-2xl font-bold mb-4">User Profiles</h1>
-            <div className="flex justify-end mb-4">
-                <form onSubmit={handleSubmit} className="flex items-center">
+            <div className="flex lg:flex-row md:flex-row flex-col gap-5 justify-end mb-4">
+                <form onSubmit={handleSubmit} className="flex items-center ml-2">
                     <input
                         type="text"
                         value={searchTerm}

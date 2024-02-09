@@ -18,7 +18,7 @@ const Userdetails = () => {
                     <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
                         <div className="md:flex">
                             <div className="md:flex-shrink-0">
-                                <img className="h-64 w-full object-cover md:w-64" src={user.image} alt={`${user.firstName} ${user.lastName}`} />
+                                <img className="lg:h-64 md:h-full h-full w-full object-cover md:w-64" src={user.image} alt={`${user.firstName} ${user.lastName}`} />
                             </div>
                             <div className="p-8">
                                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Name: {user.firstName} {user.lastName}</h2>
